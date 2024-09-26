@@ -316,8 +316,16 @@
    "id": "e96464a0-1701-4ec4-bf6e-d6a9c8173d60",
    "metadata": {},
    "source": [
-    "As there are 969 unique variables in the ID column it can be said that we can actually reduce that column to make it "
+    "As there are 969 unique variables in the ID column it can be said that we can actually reduce that column to make it a cleaner dataset"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4e9c7150-c9c7-4b1c-a171-977a536dec56",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
