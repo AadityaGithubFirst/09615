@@ -68,6 +68,7 @@
    "id": "540537bd-32a0-41aa-8725-4dda5d397330",
    "metadata": {},
    "source": [
+    "### Preprocessing the dataset\n",
     "From the df.info() function I am able to find out that most of the data inside the document are in the form of integers with one of them being a charater or string column"
    ]
   },
@@ -279,6 +280,43 @@
    ],
    "source": [
     "df.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ded327c6-8a33-4129-abeb-1dd6f086153f",
+   "metadata": {},
+   "source": [
+    "From performing df.head it can be seen that the column that has characters is the ID column. I will now find the number of unique elements inside that column to check whether all the items in that column are unique if they are unique then that means that they will not be a great addition to the prediction model."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "e2c3d47c-d411-4eb0-963f-afe09483f9b1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "969"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df.ID.nunique()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e96464a0-1701-4ec4-bf6e-d6a9c8173d60",
+   "metadata": {},
+   "source": [
+    "As there are 969 unique variables in the ID column it can be said that we can actually reduce that column to make it "
    ]
   }
  ],
